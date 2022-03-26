@@ -10,6 +10,8 @@ import plotly.graph_objects as go
 
 app = Dash(__name__)
 
+server = app.server
+
 df1 = pd.read_csv('radar.csv')
 col = ['acousticness', 'danceability', 'energy', 'duration_ms', 'instrumentalness', 'valence', 'tempo', 'liveness', 'loudness', 'speechiness', 'mode', 'explicit', 'key']
 l1 = []
