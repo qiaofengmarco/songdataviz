@@ -1,12 +1,9 @@
 from dash import Dash, html, dcc, html, Input, Output
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-from sklearn import preprocessing
 import plotly.express as px
 import plotly.graph_objects as go
-import flask
-from flask_frozen import Freezer
+#import flask
 
 #server = flask.Flask(__name__)
 #app = Dash(__name__, server=server, url_base_pathname='/dash/')
