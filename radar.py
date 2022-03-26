@@ -10,6 +10,7 @@ from flask_frozen import Freezer
 
 #server = flask.Flask(__name__)
 #app = Dash(__name__, server=server, url_base_pathname='/dash/')
+
 app = Dash(__name__)
 
 df1 = pd.read_csv('radar.csv')
@@ -68,7 +69,6 @@ def update_figure(values):
 #</div>
 #</html>
 #'''
-
 #freezer = Freezer(server)
 
 if __name__ == "__main__":
