@@ -1,0 +1,201 @@
+artist,new_col,popularity
+louis armstrong,0,768
+louis armstrong & his hot five,0,686
+fats waller,0,679
+vladimir horowitz,0,576
+bix beiderbecke,0,493
+bessie smith,0,437
+franz liszt,0,431
+frédéric chopin,0,422
+louis armstrong & his hot seven,0,384
+blind willie johnson,0,374
+tommy dorsey,0,338
+arthur rubinstein,0,275
+benny goodman,0,224
+louis armstrong & his savoy ballroom five,0,143
+jack teagarden,0,123
+carlos gardel,0,123
+ben pollack & his orchestra,0,108
+mississippi sheiks,0,107
+al bowlly,0,99
+big bill broonzy,0,94
+billie holiday,1,5064
+teddy wilson,1,2540
+christoph waltz,1,1644
+ernst h. gombrich,1,1644
+robert johnson,1,1499
+dale carnegie,1,1098
+till hagen,1,1098
+stefan kaminski,1,1098
+mgm studio orchestra,1,955
+benny goodman,1,901
+lead belly,1,776
+glenn miller,1,681
+count basie,1,571
+judy garland,1,545
+harry james,1,483
+duke ellington,1,396
+ray bolger,1,336
+max steiner,1,336
+the carter family,1,324
+art tatum,1,305
+doris day,2,2048
+erik satie,2,1616
+frank sinatra,2,1243
+arthur rubinstein,2,953
+till hagen,2,886
+stefan kaminski,2,886
+dale carnegie,2,886
+la sonora santanera,2,862
+frédéric chopin,2,845
+francis poulenc,2,781
+bing crosby,2,730
+philippe entremont,2,704
+los panchos,2,668
+sarah vaughan,2,657
+judy garland,2,628
+peggy lee,2,488
+rosemary clooney,2,473
+bill monroe & his blue grass boys,2,457
+lefty frizzell,2,443
+pérez prado,2,403
+ella fitzgerald,3,8084
+miles davis,3,6895
+frank sinatra,3,6067
+elvis presley,3,5122
+glenn gould,3,4847
+billie holiday,3,4572
+dean martin,3,4481
+johann sebastian bach,3,4181
+johnny cash,3,3374
+javier solís,3,3361
+oscar peterson,3,3134
+thelonious monk,3,2824
+louis armstrong,3,2818
+chet baker,3,2628
+leonard bernstein,3,2566
+duke ellington,3,2371
+sarah vaughan,3,2226
+sonny rollins,3,2197
+john coltrane,3,2079
+ray charles,3,2015
+the beatles,4,13925
+the beach boys,4,11717
+bob dylan,4,10136
+frank sinatra,4,9337
+the rolling stones,4,9087
+elvis presley,4,7005
+johnny cash,4,6670
+nina simone,4,5729
+the kinks,4,5195
+led zeppelin,4,4690
+otis redding,4,4603
+the who,4,4008
+van morrison,4,3944
+john coltrane,4,3726
+sam cooke,4,3567
+aretha franklin,4,3494
+creedence clearwater revival,4,3424
+the byrds,4,3420
+the doors,4,3317
+dean martin,4,3177
+bob marley & the wailers,5,9622
+queen,5,8689
+fleetwood mac,5,8228
+the rolling stones,5,7227
+led zeppelin,5,7212
+marvin gaye,5,5964
+elton john,5,5502
+david bowie,5,5207
+bob dylan,5,5108
+willie nelson,5,4795
+eagles,5,4751
+kiss,5,4749
+stevie wonder,5,4437
+neil young,5,4309
+wings,5,4301
+the clash,5,4138
+ramones,5,4108
+billy joel,5,4097
+waylon jennings,5,4096
+vicente fernández,5,3914
+u2,6,5766
+the smiths,6,5373
+metallica,6,4886
+johann sebastian bach,6,4084
+depeche mode,6,4020
+prince,6,3714
+r.e.m.,6,3632
+michael jackson,6,3632
+the cure,6,3523
+queen,6,3386
+talking heads,6,3355
+phil collins,6,3285
+bruce springsteen,6,3235
+stevie ray vaughan,6,3217
+juan gabriel,6,3193
+mötley crüe,6,3180
+def leppard,6,3043
+wolfgang amadeus mozart,6,3008
+fleetwood mac,6,3000
+madonna,6,2933
+2pac,7,6514
+nirvana,7,5603
+sublime,7,5332
+the notorious b.i.g.,7,5058
+green day,7,4111
+joan sebastian,7,3959
+metallica,7,3924
+red hot chili peppers,7,3894
+eminem,7,3862
+rage against the machine,7,3687
+pearl jam,7,3656
+jay-z,7,3647
+dr. dre,7,3564
+chalino sanchez,7,3375
+beastie boys,7,3230
+mariah carey,7,3187
+outkast,7,3156
+the smashing pumpkins,7,3122
+blink-182,7,2928
+los temerarios,7,2876
+eminem,8,8906
+kanye west,8,6722
+lil wayne,8,6109
+jay-z,8,5882
+taylor swift,8,4784
+50 cent,8,4748
+john mayer,8,4154
+linkin park,8,3819
+red hot chili peppers,8,3748
+drake,8,3669
+slipknot,8,3459
+akon,8,3436
+jack johnson,8,3409
+beyoncé,8,3354
+fall out boy,8,3354
+kenny chesney,8,3292
+system of a down,8,3271
+my chemical romance,8,3265
+george strait,8,3161
+kid cudi,8,3081
+drake,9,15860
+future,9,9333
+lil uzi vert,9,8785
+bts,9,8629
+travis scott,9,8426
+the weeknd,9,8409
+kendrick lamar,9,7584
+bad bunny,9,7389
+lil wayne,9,7144
+taylor swift,9,7091
+lil baby,9,7059
+mac miller,9,7007
+chris brown,9,6676
+nicki minaj,9,6470
+one direction,9,6324
+kanye west,9,6194
+ariana grande,9,6177
+j. cole,9,6097
+lana del rey,9,6065
+young thug,9,6015
