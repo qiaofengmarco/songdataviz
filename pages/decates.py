@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 
 df = pd.read_csv('artists.csv')
 layout = html.Div([
+    html.H5("Word Cloud of Lyrics & Bar Chart of Top-20 Popular Artists in a decade", style={'font-family':'Copperplate'}),
     html.Div([
         html.Span("Select a decade"),
         dcc.Dropdown(
@@ -48,6 +49,8 @@ layout = html.Div([
         })
     ]),
     html.Div([
+        html.Br(),
+        html.Div(id="bartitle"),
         dcc.Graph(
             id='graph1',
             responsive=True,
@@ -58,16 +61,16 @@ layout = html.Div([
     ], style={'postion': 'relative', 'margin': '0 auto', 'height': 'auto', 'text-align':'center', 'clear':'left'})
 ])
 
-@callback(Output('image', 'src'), Output('graph1', 'figure'), Output('wctitle', 'children'), Input('dropdown', 'value'))
+@callback(Output('image', 'src'), Output('graph1', 'figure'), Output('bartitle', 'children'), Output('wctitle', 'children'), Input('dropdown', 'value'))
 def update_output(value):
     src = "/assets/wc" + value[:-1] + ".png"
     v = (int(value[:4]) - 1920) // 10
     df1 = df[df['new_col'] == v][['artist', 'popularity']]
-    st1 = "Top-20 Popular Artists in " + value
+    st1 = "Bar Chart of Top-20 Popular Artists in " + value
     fig = px.bar(df1, x='artist', y='popularity')
     fig.update_traces(marker_color='lightsteelblue')
-    fig.update_layout(title_text=st1, title_x=0.5, title_font_color="black")
+    #fig.update_layout(title_text=st1, title_x=0.5, title_font_color="black")
     fig.update_layout(hoverlabel_align='right', plot_bgcolor='white', paper_bgcolor='white')
-    st2 = "Word Cloud of Song Lyrics in " + value
+    st2 = "Word Cloud of Lyrics in " + value
     
-    return src, fig, [html.H5(st2)]
+    return src, fig, [html.H6(st1)], [html.H6(st2)]
