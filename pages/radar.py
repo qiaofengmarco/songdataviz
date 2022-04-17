@@ -48,5 +48,5 @@ def update_figure(values):
         ))
     fig.update_polars(radialaxis=dict(range=[-5, 5]))
     fig.update_layout(showlegend=True)
-    fig.update_layout(legend=dict(yanchor="top", y=1, xanchor="right", x=0.7))
+    fig.update_layout(legend=dict(yanchor="top", y=1, xanchor="right", x=0.8))
     return fig
