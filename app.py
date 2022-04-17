@@ -9,7 +9,7 @@ from pages import radar, decates, network
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
 server = app.server
 
-nav_item1 = dbc.NavItem(dbc.NavLink("Big Picture", href="/radar", id="link1", className="links"))
+nav_item1 = dbc.NavItem(dbc.NavLink("Radar", href="/radar", id="link1", className="links"))
 nav_item2 = dbc.NavItem(dbc.NavLink("Decates", href="/decates", id="link2", className="links"))
 nav_item3 = dbc.NavItem(dbc.NavLink("Network", href="/network", id="link3", className="links"))
 

@@ -93,14 +93,17 @@ layout = dict(plot_bgcolor='white',
 fig = go.Figure(data=[edge_trace, node_trace], layout=layout)
 fig.update_layout(hoverlabel_font_color="white")
 
-layout = dcc.Graph(
+layout = html.Div([
+    html.H5("Network of Artists with 40+ Songs"),
+    dcc.Graph(
             id='graph',
             figure=fig,
             responsive=True,
             style={
             'position': 'relative',
-            'height':'90vh'
+            'height':'80vh'
             }
-        )
+    )
+])
 
     

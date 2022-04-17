@@ -5,6 +5,7 @@ import plotly.graph_objects as go
 
 df = pd.read_csv('artists.csv')
 layout = html.Div([
+    html.Div(id="wctitle"),
     html.Div([
         dcc.Dropdown(
             ['1920s', '1930s', '1940s', '1950s', '1960s', '1970s', '1980s', '1990s', '2000s', '2010s'],
@@ -48,7 +49,7 @@ layout = html.Div([
     ], style={'postion': 'relative', 'margin': '0 auto', 'height': 'auto', 'text-align':'center', 'clear':'left'})
 ])
 
-@callback(Output('image', 'src'), Output('graph1', 'figure'), Input('dropdown', 'value'))
+@callback(Output('image', 'src'), Output('graph1', 'figure'), Output('wctitle', 'children'), Input('dropdown', 'value'))
 def update_output(value):
     src = "/assets/wc" + value[:-1] + ".png"
     v = (int(value[:4]) - 1920) // 10
@@ -56,7 +57,8 @@ def update_output(value):
     st1 = "Top-20 Popular Artitsts in " + value
     fig = px.bar(df1, x='artist', y='popularity')
     fig.update_traces(marker_color='lightsteelblue')
-    fig.update_layout(title_text=st1, title_x=0.5)
+    fig.update_layout(title_text=st1, title_x=0.5, title_font_color="black")
     fig.update_layout(hoverlabel_align='right', plot_bgcolor='white', paper_bgcolor='white')
+    st2 = "Word Cloud of Song Lyrics in " + value
     
-    return src, fig
+    return src, fig, [html.H5(st2)]
