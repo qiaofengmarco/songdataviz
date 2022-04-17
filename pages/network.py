@@ -94,7 +94,7 @@ fig = go.Figure(data=[edge_trace, node_trace], layout=layout)
 fig.update_layout(hoverlabel_font_color="white")
 
 layout = html.Div([
-    html.H5("Network of Artists with 40+ Songs", style={'font-family':'Copperplate'}),
+    html.H5("Network of Artists Who Made 40+ Songs", style={'font-family':'Copperplate'}),
     dcc.Graph(
             id='graph',
             figure=fig,
