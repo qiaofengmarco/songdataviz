@@ -36,9 +36,10 @@ app.layout = html.Div([
 defaultLayout = html.Div([
     html.H1("Welcome!", style={'font-family':'Copperplate'}),
     html.Br(),
-    html.P("This project is for NUS CS5346. You are free to explore every visualization through the links above."),
+    html.P("In this project, we visualize the datasets from Kaggle (which are song and lyric datasets originally collected from Spotify). By visualizing the data, we hope to provide insights for contemporary music students and pop song enthusiasts better to understand famous artists and global songs’ evolution. You are free to explore every visualization through the links above.", style={'text-align':'left', 'margin': 'auto 20%'}),
+    html.Br(),
     html.Div([
-    html.Img(src='/assets/homepage.jpg', style={'postion': 'relative', 'width':'100%', 'height': '100%', 'text-align':'center', 'clear':'left'})
+        html.Img(src='/assets/homepage.jpg', style={'postion': 'relative', 'width':'100%', 'height': '100%', 'text-align':'center', 'clear':'left'})
     ], style={'margin':'auto 20%'})
 ])
 
