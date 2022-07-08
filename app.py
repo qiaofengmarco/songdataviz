@@ -17,7 +17,7 @@ nav_item4 = dbc.NavItem(dbc.NavLink("Artist", href="/artist", id="link4", classN
 
 default = dbc.NavbarSimple(
     children=[nav_item0, nav_item1, nav_item2, nav_item3, nav_item4],
-    brand="NUS CS5346 Group 10",
+    brand="Song Data Visualization",
     brand_href="/",
     sticky="top",
     className="mb-5",
@@ -43,8 +43,9 @@ defaultLayout = html.Div([
     ], style={'margin':'auto 20%'})
 ])
 
-dashboardLayout = html.Iframe(src="https://public.tableau.com/views/Spotify_EDA/Dashboard1?:showVizHome=no&:embed=true",
-    style={'position': 'relative', 'text-align':'center', 'height':'90vh', 'width':'100%'})
+dashboardLayout = html.Div([
+        html.Iframe(src="https://public.tableau.com/views/Spotify_EDA/Dashboard1?:showVizHome=no&:embed=true", style={'position': 'relative', 'height':'90vh', 'width':'100%'})
+    ], style={'margin':'0 0 0 7%'})
 
 @app.callback(Output('page-content', 'children'),
               Input('url', 'pathname'))
